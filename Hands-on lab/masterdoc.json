@@ -3,51 +3,51 @@
   "Language": "English",
   "Files": [
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/SAP-plus-extend-and-innovate-with-Data-and-AI/MS-Innovation/Hands-on%20lab/overview.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/SAP-plus-extend-and-innovate-with-Data-and-AI/guided-lab/Hands-on%20lab/overview.md",
       "Order": 1
     },
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/SAP-plus-extend-and-innovate-with-Data-and-AI/MS-Innovation/Hands-on%20lab/bhol.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/SAP-plus-extend-and-innovate-with-Data-and-AI/guided-lab/Hands-on%20lab/bhol.md",
       "Order": 2
     },
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/SAP-plus-extend-and-innovate-with-Data-and-AI/MS-Innovation/Hands-on%20lab/e1.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/SAP-plus-extend-and-innovate-with-Data-and-AI/guided-lab/Hands-on%20lab/e1.md",
       "Order": 3
     },
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/SAP-plus-extend-and-innovate-with-Data-and-AI/MS-Innovation/Hands-on%20lab/e2.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/SAP-plus-extend-and-innovate-with-Data-and-AI/guided-lab/Hands-on%20lab/e2.md",
       "Order": 4
     },
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/SAP-plus-extend-and-innovate-with-Data-and-AI/MS-Innovation/Hands-on%20lab/e3.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/SAP-plus-extend-and-innovate-with-Data-and-AI/guided-lab/Hands-on%20lab/e3.md",
       "Order": 5
     },
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/SAP-plus-extend-and-innovate-with-Data-and-AI/MS-Innovation/Hands-on%20lab/e4.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/SAP-plus-extend-and-innovate-with-Data-and-AI/guided-lab/Hands-on%20lab/e4.md",
       "Order": 6
     },
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/SAP-plus-extend-and-innovate-with-Data-and-AI/MS-Innovation/Hands-on%20lab/e5.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/SAP-plus-extend-and-innovate-with-Data-and-AI/guided-lab/Hands-on%20lab/e5.md",
       "Order": 7
     },   
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/SAP-plus-extend-and-innovate-with-Data-and-AI/MS-Innovation/Hands-on%20lab/e6.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/SAP-plus-extend-and-innovate-with-Data-and-AI/guided-lab/Hands-on%20lab/e6.md",
       "Order": 8
     },
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/SAP-plus-extend-and-innovate-with-Data-and-AI/MS-Innovation/Hands-on%20lab/e7.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/SAP-plus-extend-and-innovate-with-Data-and-AI/guided-lab/Hands-on%20lab/e7.md",
       "Order": 9
     },
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/SAP-plus-extend-and-innovate-with-Data-and-AI/MS-Innovation/Hands-on%20lab/e8.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/SAP-plus-extend-and-innovate-with-Data-and-AI/guided-lab/Hands-on%20lab/e8.md",
       "Order": 10
     },
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/SAP-plus-extend-and-innovate-with-Data-and-AI/MS-Innovation/Hands-on%20lab/e9.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/SAP-plus-extend-and-innovate-with-Data-and-AI/guided-lab/Hands-on%20lab/e9.md",
       "Order": 11
     },
      {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/SAP-plus-extend-and-innovate-with-Data-and-AI/MS-Innovation/Hands-on%20lab/e10.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/SAP-plus-extend-and-innovate-with-Data-and-AI/guided-lab/Hands-on%20lab/e10.md",
       "Order": 12
     }
   ]
