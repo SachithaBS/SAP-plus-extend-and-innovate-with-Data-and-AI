@@ -25,7 +25,6 @@ This lab is designed to equip participants with hands-on experience in integrati
 ## Prerequisites 
 
 Participants should have: 
-Basic knowledge and understanding of the following
  
  - Basic Knowledge of SAP Systems
  - Experience with Programming
@@ -45,6 +44,8 @@ Basic knowledge and understanding of the following
 
 ## Explanation of Components 
 
+The architecture for this lab involves the following key components:
+
 1. **SAP S/4HANA**: Participants should have a foundational understanding of enterprise resource planning (ERP) systems and a basic familiarity with data management concepts to fully grasp SAP S/4HANA. This integrated ERP suite is designed to streamline business processes by utilizing the advanced in-memory computing power of SAP HANA. It covers key business functions such as finance, supply chain, and manufacturing, offering real-time insights and enhanced efficiency. With its modern, intuitive interface and robust analytics capabilities, SAP S/4HANA supports digital transformation and agile decision-making, enabling organizations to adapt swiftly to evolving market demands and improve overall operational effectiveness.
 
 2. **Azure Synapse**: is a powerful data integration and analytics service. Participants should have a basic understanding of its key components, including data integration (through Synapse Pipelines), data warehousing (using SQL Pools), and real-time analytics. The lab may involve extracting data from SAP systems and integrating it into **Azure Synapse** for large-scale data analytics and processing. Experience with SQL and working knowledge of connecting external data sources to Synapse will be beneficial.
@@ -57,7 +58,7 @@ Basic knowledge and understanding of the following
 
 6. **Power Automate**: Participants should have a basic understanding of workflow automation and process optimization to effectively utilize Power Automate. This cloud-based service from Microsoft enables users to automate repetitive tasks and streamline processes across various applications and services without requiring extensive coding knowledge. By connecting disparate systems through pre-built or custom workflows, Power Automate helps integrate data, manage approvals, and trigger actions based on specific conditions. Its user-friendly interface and extensive library of connectors facilitate seamless automation, enhancing productivity and efficiency by allowing users to focus on higher-value tasks and ensuring consistent execution of routine processes.
 
-# Getting Started
+## Getting Started with the Lab
  
 Welcome to your SAP Plus Extend and Innovate with Data and AI Workshop! We've prepared a seamless environment for you to explore and learn about SAP's "Plus: Extend and Innovate with Data and AI" initiative. This program is designed to help businesses leverage SAP's powerful data management tools and cutting-edge AI technologies. By integrating intelligent solutions, it empowers users to optimize operations, drive innovation, and extend their capabilities beyond traditional ERP functions, fostering smarter decision-making and improved business outcomes. Through this initiative, organizations can unlock new opportunities by harnessing the potential of data and AI within SAP’s ecosystem. Let's begin by making the most of this experience:
  
@@ -67,30 +68,36 @@ Welcome to your SAP Plus Extend and Innovate with Data and AI Workshop! We've pr
 
      ![](./media/sap-getting-started.png)
 
- ### Virtual Machine & Lab Guide
+### Virtual Machine & Lab Guide
  
-   Your virtual machine is your workhorse throughout the workshop. The lab guide is your roadmap to success.
+Your virtual machine is your workhorse throughout the workshop. The lab guide is your roadmap to success.
  
 ## Exploring Your Lab Resources
  
 1. To get a better understanding of your lab resources and credentials, navigate to the **Environment** details tab.
 
  
-   ![](./media/enviornment.png)
+   ![](./media/environment.png)
  
 ## Utilizing the Split Window Feature
  
 1. For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
 
-   ![](./media/spl.png)
+   ![](./media/nleg4.png)
  
 ## Managing Your Virtual Machine
 
 1. Feel free to **start, stop, or restart (2)** your virtual machine as needed from the **Resources (1)** tab. Your experience is in your hands!
 
-   ![Manage Your Virtual Machine](./media/res.png)
+   ![Manage Your Virtual Machine](./media/resources-vm-manage.png)
 
-## **Let's Get Started with Azure Portal**
+## Lab Guide Zoom In/Zoom Out
+
+To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
+
+![](./media/labzoom-1.png)
+
+## Let's Get Started with Azure Portal
  
 1. On your virtual machine, click on the Azure Portal icon as shown below:
  
@@ -114,14 +121,10 @@ Welcome to your SAP Plus Extend and Innovate with Data and AI Workshop! We've pr
 
 5. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
 
-6. If a **Welcome to Microsoft Azure** popup window appears, click **Maybe Later** to skip the tour.
+6. If a **Welcome to Microsoft Azure** popup window appears, click **Cancel** to skip the tour.
    
-7. Now, click on the **Next** from the lower right corner to move to the next page.
 
-    ![](./media/GS4.png "Enter Password") 
-
-
-## **Support Contact**
+## Support Contact
 
 1. The CloudLabs support team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both learners and instructors, ensuring that all your needs are promptly and efficiently addressed.
 
@@ -132,6 +135,8 @@ Welcome to your SAP Plus Extend and Innovate with Data and AI Workshop! We've pr
 
 
 2. Click **"Next"** from the bottom right corner to embark on your Lab journey!
+
+    ![](./media/GS4.png "Enter Password")
 
    >**Note:** Do not close the PowerShell in which logon task is running.
  
