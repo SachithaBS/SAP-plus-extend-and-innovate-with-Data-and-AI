@@ -37,36 +37,46 @@ In this task, you will create an SAP Cloud Appliance by registering a new accoun
 
 1. Select the **Log On** button in the header of the website.
 
-    ![A portion of the SAP Cloud Appliance Library site displays with the Log On button highlighted.](media/sapcal_logon_button.png "SAP Cloud Appliance Library Log On")
+    ![](media/ex0.task2.2.png)
 
-1. Select **Register** for creating a new account using the following details:
+1. Select **Register** for creating a new account using the following details: 
 
-    - **First Name**: odluser
-    - **Last Name**: <inject key="DeploymentID" enableCopy="false"></inject>
-    - **Email**: <inject key="AzureAdUserEmail"></inject>
-    - **Country**: United States
-    - Select **Continue**
-    - **Company**: Microsoft
-    - **Street Address**: 123 Main Street
-    - **City**: Anytown
-    - **ZIP/Postal Code**: 12345
-    - **Country/Region**: United States
-    - Select **Continue**
-    - **Password**: <inject key="AzureAdUserPassword"></inject>
-    - **Re-Enter Password**: <inject key="AzureAdUserPassword"></inject>
-    - Select **Register**
+    ![](media/ex0.task2.3.png)
+
+    - **First Name**: odluser **(1)**
+    - **Last Name**: <inject key="DeploymentID" enableCopy="false"></inject> **(2)**
+    - **Email**: <inject key="AzureAdUserEmail"></inject> **(3)**
+    - **Country**: United States **(4)**
+    - Select **Continue** **(5)**
+
+      ![](media/ex0.task2.5.png)
+
+    - **Company**: Microsoft **(6)**
+    - **Street Address**: 123 Main Street **(7)**
+    - **City**: Anytown **(8)**
+    - **ZIP/Postal Code**: 12345 **(9)**
+    - **Country/Region**: United States **(10)**
+    - Select **Continue** **(11)**
+      ![](media/ex0.task2.6.png)
+    - **Password**: <inject key="AzureAdUserPassword"></inject> **(12)**
+    - **Re-Enter Password**: <inject key="AzureAdUserPassword"></inject> **(13)**
+    - Select **Register** **(14)**
+      ![](media/ex0.task2.7.png)
+     
 
 1. For activating the account, open **[Outlook](https://outlook.office365.com/mail/inbox/id/AAQkADljM2VkMzEwLTI2ZmUtNDlmNC1iYjA5LTBmNzlkYTY5NzJmYgAQABkSpmAaulhIiEXU2F3Yr90%3D)** on the same browser, and log in using the same credentials which you have used for registering, you will recieve an email from **SAP ID Service**, open that email, and select **Click here to activate your account**.
+  ![](media/ex0.task2.10.png)
 
-1. It will open the new page, on the **Account Successfully Activated** page, select **Continue**.
+1. It will open the new page, on the **Account Successfully Activated** page, select **Continue**. 
+   ![](media/ex0.task2.11.png)
 
 1. On the **Terms and Conditions** screen, read the conditions of the 30-day trial license, and select the **I Accept** button to continue.
 
     ![](./media/updatedimg1.png)
 
-1. On the SAP Cloud Appliance Library from the left navigation pane select **Appliance Templates (1)** screen, search for and locate the **SAP S/4HANA 2023, Fully-Activated Appliance (2)** item, and select the **Create Appliance** button in the search results.
+1. On the SAP Cloud Appliance Library from the left navigation pane select **Appliance Templates (1)** screen, search for and locate the **SAP S/4HANA 2023, Fully-Activated Appliance (2)** item, and select the **Create Appliance (3)** button in the search results.
 
-    ![The Appliance Templates screen displays with SAP S/4Hana 2023, Fully-Activated Appliance entered in the search box, and the Create Appliance button highlighted in the search results listing.](media/allappliance.png "Create SAP S4/HANA instance")
+    ![The Appliance Templates screen displays with SAP S/4Hana 2023, Fully-Activated Appliance entered in the search box, and the Create Appliance button highlighted in the search results listing.](media/ex0.task2.12.png "Create SAP S4/HANA instance")
 
 1. On the **Terms and Conditions** screen, read the conditions, and select the **I Accept** button to continue.
 
@@ -86,22 +96,24 @@ In this task, you will create an SAP Cloud Appliance by registering a new accoun
 
     ![A Permissions requested modal dialog displays with the Consent on behalf of your organization checkbox checked and the Accept button highlighted.](media/accept-sap.png "SAP Cloud Appliance Library Permissions Requested")
 
-1. Returning to the **Basic Mode: Create Appliance** screen fill the **Appliance Details** form as follows and select **Create**:
+1. Returning to the **Basic Mode: Create Appliance** screen fill the **Appliance Details** form as follows and select **Create (5)**:
 
     | Field | Value |
     |-------|-------|
-    | Name  | MS-SAP |
-    | Region | Select the nearest location |
-    | Password | Choose a strong password |
-    | Retype Password | Enter the chosen password |
+    | Name  | MS-SAP **(1)** |
+    | Region | Select the nearest location **(2)** |
+    | Password | Choose a strong password **(3)** |
+    | Retype Password | Enter the chosen password **(4)**| 
+
+    ![](media/ex0.task2.13.png)
 
     >**Note**: If difficulty arises using the **Basic** mode, an alternative is to use **Authorization with Application Type** using a [service principal](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal).
 
     >**Note:** Select **Proceed** on the **Warning** pop-up.
 
-1. On the **Private Key** modal, select to **Store** the private key in the SAP Cloud Appliance Library. Check the **Encrypt the private key with a password** and enter a **Password**: <inject key="AzureAdUserPassword"></inject>. Type the password once more in the **Retype Password** textbox. Select the **Download** button to download the encrypted key.
+1. On the **Private Key** modal, select to **Store (1)** the private key in the SAP Cloud Appliance Library. Check the **Encrypt the private key with a password (2)** and enter a **Password (3)**: <inject key="AzureAdUserPassword"></inject>. Type the password once more in the **Retype Password (4)** textbox. Select the **Download (5)** button to download the encrypted key.
 
-    ![The Private Key dialog displays with the password fields filled in and the Store and Download buttons highlighted.](media/sapcal_privatekey.png "Private Key dialog")
+    ![The Private Key dialog displays with the password fields filled in and the Store and Download buttons highlighted.](media/ex0.task2.14.png "Private Key dialog")
 
     >**Note:** Close the **Warning** pop-up.
 
@@ -177,13 +189,18 @@ This task demonstrates creating a sales view in SAP and exposing it as an OData 
 
 1. On the SAP Cloud Appliance Library Instances page, select the **Connect** button on the **SAP** row.
 
-    ![The SAP CAL instances listing displays with the Connect button highlighted next to the SAP item.](media/connect.png "Connect to SAP Instance")
+    ![The SAP CAL instances listing displays with the Connect button highlighted next to the SAP item.](media/ex0.task4.1.png "Connect to SAP Instance")
 
 1. On the **Connect to the instance** dialog, select the **Connect** link on the RDP row. This will download an RDP file.
 
-    ![The Connect to the instance dialog displays with the Connect link highlighted on the RDP row.](media/rdp-connect.png "Connect via RDP")
+    ![The Connect to the instance dialog displays with the Connect link highlighted on the RDP row.](media/ex0.task4.2.png "Connect via RDP")
 
-1. Open the downloaded RDP file and log into the instance using the username `Administrator` and the password used when deploying the instance.
+1. Open the downloaded RDP file and log into the instance using the username `Administrator` and the password used when deploying the instance which you had specified in step 11 of Task2. 
+    ![](media/ex0.task4.3.png)
+
+    ![](media/ex0.task4.4.png) 
+
+    ![](media/ex0.task4.5.png)
 
     >**Note:** Minimize the **Welcome** page.
 
@@ -208,6 +225,7 @@ This task demonstrates creating a sales view in SAP and exposing it as an OData 
     ![HANA Studio displays with the Window, Perspective, Open Perspective menu items expanded and the SAP HANA Development item is selected.](media/sapvm_changeperspective.png "Change to development perspective")
 
 1. In the left panel, select **Resource**, select the **Project Explorer** tab then double-click the **S4H_100_s4h_ext_en** folder.
+    ![](media/ex0.task4.6.png)
 
     ![The left panel of HANA Studio displays with the Project Explorer tab and S4H_100_s4h_ext_en folder selected.](media/sapvm_projectexplorer.png "Project Explorer")
 
