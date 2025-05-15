@@ -61,6 +61,7 @@ In this task, you will create an SAP Cloud Appliance by registering a new accoun
     - **Password**: <inject key="AzureAdUserPassword"></inject> **(12)**
     - **Re-Enter Password**: <inject key="AzureAdUserPassword"></inject> **(13)**
     - Select **Register** **(14)**
+      
       ![](media/ex0.task2.7.png)
      
 
